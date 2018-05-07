@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("bg.jpg") no-repeat fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  font-family: sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div.konten{
+    background: transparant;
+    width: 350px;
+    margin: 150px auto ;
+    border-radius: 10px;
+    min-height: 256px;
+    overflow: hidden;
+    border-color: #33ccff;
+    border-style: solid;
+}
+
+div.kepala{
+    background: #ff9900;
+    padding: 10px 22px;
+    height: 60px;
+}
+
+div.kepala h2.judul{
+    color: #fff;
+    font-weight: normal;
+    line-height: 40px;
+    display: inline-block;
+}
+
+div.tulisan{
+    padding:10px 22px 0;
+    color:  #008080;
+}
+
+div.tulisan div.grup{
+    margin: 16px 0;
+}
+
+div.tulisan div.grup label,
+div.tulisan div.grup input{
+    display: block;
+}
+
+div.tulisan div.grup label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+div.grup2{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background:#33ccff;
+    border:none;
+    color: #808080;
+    border-radius: 5px;
+}
+
+div.grup2:hover{
+  background: #008080;
+}
+
+.text1{
+  font-size: 12px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.text2{
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  position: absolute;
+}
+
+div.tulisan div.grup input[type="text"],
+div.tulisan div.grup input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background: #eeeeee;
+    border:none;
+    color: #808080;
+}
+
+div.tulisan div.grup input[type="submit"]{
+    background: #66ff66;
+    padding: 4px 16px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+div.tulisan div.grup input[type="submit"]:hover{
+    background: #28a45e;
+    border-color: #28a45e;
+}
